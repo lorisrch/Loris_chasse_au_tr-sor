@@ -1,0 +1,44 @@
+/* format tableau */
+#element { background:url(carte.png) no-repeat; 
+
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    border-collapse: collapse;
+
+}
+
+
+/* Largeur et hauteur des cases*/
+td{
+    width:40px;
+    height:40px;
+    border-width: 1px;
+    border-color: black;
+    border-style:   solid;
+}
+
+/* Gestion des blocs de classe "cadre" */
+.cadre {
+    display: inline-block;
+    width: 600px;
+    /*margin: 1em;*/
+    font-size: 18px;
+
+}
+
+/* Couleurs des cases, avec opacité de 0.9 */
+.bad{
+    background:rgba(200,0,0,0.9);
+}
+.good {
+    background:green;
+
+}
+
+
+
+
+
+
+
